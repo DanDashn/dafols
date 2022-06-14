@@ -1,0 +1,264 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mulish:wght@300&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap');
+body{
+    background-color: #f2f2f2;
+    font-family: 'Noto Serif', serif;
+    font-weight: 300;
+    font-size: 16px;
+    -webkit-font-soothing: antialiased;
+    -webkit-overflow-scrolling:  touch;
+    margin-top: 70px;
+}
+
+hl, h2, h3, h4, h5,h6 {
+    font-family: 'Noto Serif', serif;
+    font-weight: 300;
+    color: #333;
+}
+
+p{
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered{
+    text-align: center;
+}
+
+.nav-link{
+    margin: 0 70px 0 0px;
+    width: 100%;
+    text-align: center;
+    transition: font-size 0.5s ease;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover{
+    color: #2caee6;
+    font-size: 2em;
+    background-color: black;
+}
+.navbar-inverse .navbar-nav > .active > a:hover{
+    color: #fff;
+    font-size: 2em;
+    background-color: #2caee6;
+}
+
+a:hover, a:focus{
+    color: #2caee6;
+    text-decoration: none;
+    overflow: 0;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.navbar {
+    font-weight: 800;
+    font-size: 14px;
+    padding: 30px 0 30px 0; 
+}
+
+.navbar-inverse{
+    background-color: #2caee650;      
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    background-color: #2caee6;
+}
+
+.navbar-inverse .navbar-brand{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+#headerwrap{
+    background: url(../img/oir-mobi.jpg) no-repeat center top;
+    margin-top: -100px;  
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 600px;
+    width: 100%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;    
+    -moz-background-size: cover;
+    filter:brightness(90%);
+}
+
+#headerwrap h1{
+    margin-top: 200px;
+    color: white;
+    font-size: 70px;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+#headerwrap h2{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 2px;    
+    text-transform: uppercase;
+}
+
+.w{
+    background: url(../img/avatars_mds_yand.jpg) no-repeat center top;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    width: 100%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;    
+    -moz-background-size: cover;
+    color: white;
+    padding: 200px;
+    filter: brightness(90%);
+}
+.w h3{
+    font-size: 50px;
+    margin: 30px 0 60px 0;
+    color: white;
+    font-weight: bolder;
+}
+.w h4{
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+}
+.wd{
+    padding: 20px 40px;
+}
+.wd > img {
+    width: 100px;
+    height: 100px;
+}
+
+#dg{
+    background: #ffffff;
+    padding: 70px 0px 140px 0;
+}
+#dg h4{
+    font-size: 45px;
+    padding: 0 0 30px 0;
+}
+#dg img{
+    width:  400px;
+    height: 400px;
+
+    background-position: center center;
+}
+
+.title{
+    -webkit-transform: all 1s ease;
+    -moz-transform: all 1s ease;
+    -o-transform: all 1s ease;
+    -ms-transform: all 1s ease;
+    transition: all 1s ease;
+    transform: scale(0.8);
+}
+
+#dg p{
+    background-color: #2caee6;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+.title:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transition: scale(1.2);
+}
+
+.wb{
+    padding-top: 35px;
+    margin-bottom: 0;
+}
+
+.wb h4 {
+    font-size: 35px;
+}
+
+#f{
+    background-color: #f2f2f2;
+    padding: 30px 0 20px 0;
+}
+
+#f i {
+    color: #000000;
+    font-size: 40px;
+    padding: 20px 70px;
+    transition: font-size 0.5s ease-in;
+}
+
+#f i:hover{
+    color: #2caee6;
+    font-size: 70px;
+}
+
+.e{
+    text-align: center; 
+    color: #000000;
+    padding: 50px;
+}
+.e h3{
+    font-size: 50px;
+    color: #2d2d2d;
+    transition: font-size 0.5s ease;
+}
+.e h3:hover{
+    font-size: 60px;
+}
+.e h4{
+    font-size: 30px;
+    color: #000000;
+    font-weight: bolder;
+    transform: scale(0.8);
+    transition: transform 0.5s ease;
+}
+.e h4:hover {
+    transform: scale(1.2);
+}
+#foo{
+    background-color:#2d2d2d;
+    padding: 30px 0 20px 0;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+#foo > div{
+    flex-shrink: 0;
+    width: 70vw;
+}
+#foo a{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    transform: scale(0.8);
+    transition: all 0.3s ease;
+}
+#foo a:hover{
+    color: #2caee6;
+    font-size: 18px;
+}
+
+footer{
+    padding: 10px;
+    color: white;
+}
